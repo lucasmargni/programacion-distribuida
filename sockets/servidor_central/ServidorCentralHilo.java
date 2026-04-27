@@ -1,4 +1,4 @@
-package servidor_central;
+package sockets.servidor_central;
 
 import java.io.*;
 import java.net.*;
@@ -29,7 +29,7 @@ public class ServidorCentralHilo implements Runnable {
         Properties prop = new Properties();
 
         try {
-            FileInputStream fis = new FileInputStream("servidor_central/config.properties");
+            FileInputStream fis = new FileInputStream("sockets/servidor_central/config.properties");
             prop.load(fis);
 
             // recibe datos de cliente (IMPORTA EL ORDEN)

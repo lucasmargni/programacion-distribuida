@@ -1,4 +1,4 @@
-package servidor_clima;
+package sockets.servidor_clima;
 
 import java.io.*;
 import java.net.*;
@@ -14,7 +14,7 @@ public class ServidorClima {
         System.out.print("Inicializando servidor... ");
 
         try {
-            FileInputStream fis = new FileInputStream("servidor_clima/config.properties");
+            FileInputStream fis = new FileInputStream("sockets/servidor_clima/config.properties");
             prop.load(fis);
 
             // Obtenemos las variables

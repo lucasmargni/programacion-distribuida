@@ -1,4 +1,4 @@
-package servidor_horoscopo;
+package sockets.servidor_horoscopo;
 
 import java.io.*;
 import java.net.*;

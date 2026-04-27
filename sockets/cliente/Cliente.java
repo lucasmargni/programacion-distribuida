@@ -1,4 +1,4 @@
-package cliente;
+package sockets.cliente;
 import java.io.*;
 import java.net.Socket;
 import java.util.logging.*;
@@ -14,7 +14,7 @@ public class Cliente {
         Properties prop = new Properties();
 
         try {
-            FileInputStream fis = new FileInputStream("cliente/config.properties");
+            FileInputStream fis = new FileInputStream("sockets/cliente/config.properties");
             prop.load(fis);
 
             // Obtenemos las variables

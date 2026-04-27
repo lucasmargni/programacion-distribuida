@@ -1,4 +1,4 @@
-package servidor_horoscopo;
+package sockets.servidor_horoscopo;
 
 import java.io.*;
 import java.net.*;
@@ -14,7 +14,7 @@ public class ServidorHoroscopo {
         System.out.print("Inicializando servidor... ");
 
         try {
-            FileInputStream fis = new FileInputStream("servidor_horoscopo/config.properties");
+            FileInputStream fis = new FileInputStream("sockets/servidor_horoscopo/config.properties");
             prop.load(fis);
 
             // Obtenemos las variables

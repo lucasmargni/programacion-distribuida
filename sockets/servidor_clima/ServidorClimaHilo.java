@@ -1,4 +1,4 @@
-package servidor_clima;
+package sockets.servidor_clima;
 
 import java.io.*;
 import java.net.*;

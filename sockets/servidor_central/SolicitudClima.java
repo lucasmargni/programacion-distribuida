@@ -1,4 +1,4 @@
-package servidor_central;
+package sockets.servidor_central;
 
 import java.io.*;
 import java.net.Socket;

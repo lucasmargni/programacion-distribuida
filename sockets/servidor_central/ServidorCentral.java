@@ -1,4 +1,4 @@
-package servidor_central;
+package sockets.servidor_central;
 
 import java.io.*;
 import java.net.*;
@@ -12,7 +12,7 @@ public class ServidorCentral {
         System.out.print("Inicializando servidor... ");
 
         try {
-            FileInputStream fis = new FileInputStream("servidor_central/config.properties");
+            FileInputStream fis = new FileInputStream("sockets/servidor_central/config.properties");
             prop.load(fis);
 
             // Obtenemos las variables
