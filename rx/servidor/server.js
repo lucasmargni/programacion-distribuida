@@ -2,7 +2,7 @@ import { Server } from "socket.io";
 import { play, checkWinner, reset, getBoard, getCurrentPlayer } from "./tateti.js";
 import { getNextAd } from "./ads.js";
 
-const PORT = 8000;
+const PORT = process.env.PORT || 8000;
 
 const io = new Server(PORT, {
   cors: { origin: "*" },
